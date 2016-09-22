@@ -14,6 +14,7 @@
 		85CCD16E1D926D8500E9DF7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CCD16C1D926D8500E9DF7B /* LaunchScreen.storyboard */; };
 		85CCD1791D926D8500E9DF7B /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CCD1781D926D8500E9DF7B /* FoodTrackerTests.swift */; };
 		85CCD1841D926D8500E9DF7B /* FoodTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CCD1831D926D8500E9DF7B /* FoodTrackerUITests.swift */; };
+		85CCD1921D9304C300E9DF7B /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CCD1911D9304C200E9DF7B /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		85CCD17F1D926D8500E9DF7B /* FoodTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85CCD1831D926D8500E9DF7B /* FoodTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerUITests.swift; sourceTree = "<group>"; };
 		85CCD1851D926D8500E9DF7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85CCD1911D9304C200E9DF7B /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		85CCD1571D926D8300E9DF7B = {
 			isa = PBXGroup;
 			children = (
+				85CCD1911D9304C200E9DF7B /* RatingControl.swift */,
 				85CCD1621D926D8400E9DF7B /* FoodTracker */,
 				85CCD1771D926D8500E9DF7B /* FoodTrackerTests */,
 				85CCD1821D926D8500E9DF7B /* FoodTrackerUITests */,
@@ -193,15 +196,18 @@
 				TargetAttributes = {
 					85CCD15F1D926D8300E9DF7B = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					85CCD1731D926D8500E9DF7B = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 85CCD15F1D926D8300E9DF7B;
 					};
 					85CCD17E1D926D8500E9DF7B = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 85CCD15F1D926D8300E9DF7B;
 					};
@@ -260,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				85CCD1661D926D8400E9DF7B /* ViewController.swift in Sources */,
+				85CCD1921D9304C300E9DF7B /* RatingControl.swift in Sources */,
 				85CCD1641D926D8400E9DF7B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
